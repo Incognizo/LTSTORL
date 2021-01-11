@@ -1,0 +1,106 @@
+<!-- reset body so I can have my own presets, helps to make bar reach full screen-->
+
+html, body {
+margin:0;
+padding:0;
+}
+
+<!-- body stuff yurr-->
+
+div.Paragraphs p {
+    font-family:"Texturina";
+    text-decoration: underline;
+    color:#71aee3;
+    font-size:25;
+}
+
+h3 {
+    font-family:"Texturina";
+    text-decoration: underline;
+    color:#71aee3;
+    font-size:25;
+  }
+body {
+    background-color:forestgreen;
+    font-family:"Castoro";
+    
+}
+h4 {
+    font-family: 'PT Sans', sans-serif;
+    font-size:20px;
+    color:#c9dce0;
+    transition: color,text-indent 0.5s ease-out;  
+}
+a {
+    font-family:"Texturina";
+    color:#208ae6;
+    font-style:Italic;
+    font-size:25px;
+}
+.center {
+    text-align:Center;
+    
+}
+.centerimage {
+    width:200px;
+    height:200px; 
+}
+
+.header img {
+  float: left;
+  vertical-align: middle;
+}
+
+
+h1.header {
+    position: relative;
+    top: 18px;
+    left: 10px; 
+}
+
+h1 {
+    text-shadow:2px 2px #4d7073;
+   
+}
+
+#centerimage {
+display:Block;
+margin-left:Auto;
+margin-right:Auto;    
+    
+}
+
+div.header {
+  background-color: green;
+  height:100px;
+}
+
+h4:hover {
+    color: #ffffff;
+    text-indent: 10px;
+}
+
+<!-- nav bar menu-->
+
+#navbar {
+  background-color: #333; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navbar a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font:Garamond;
+}
+
+#navbar a:hover {
+  color: black;
+  transition: color 0.5s;
+}
